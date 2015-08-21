@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3484DC3A1B8460D400BB776F /* ForCoverage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3484DC391B8460D400BB776F /* ForCoverage.h */; };
+		3484DC3C1B8460D400BB776F /* ForCoverage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3484DC3B1B8460D400BB776F /* ForCoverage.m */; };
+		3484DC421B8460D400BB776F /* libForCoverage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3484DC361B8460D400BB776F /* libForCoverage.a */; };
+		3484DC511B8461C900BB776F /* ForCoverageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3484DC501B8461C900BB776F /* ForCoverageTests.m */; };
+		3484DC581B846AFF00BB776F /* SuBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3484DC571B846AFF00BB776F /* SuBTests.m */; };
+		3484DC5B1B846C1000BB776F /* SuB.m in Sources */ = {isa = PBXBuildFile; fileRef = 3484DC5A1B846C1000BB776F /* SuB.m */; };
+		3486F5341B860843004F98F6 /* ForCoverage_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3486F5331B860843004F98F6 /* ForCoverage_Tests.m */; };
+		3486F5351B860843004F98F6 /* libForCoverage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3484DC361B8460D400BB776F /* libForCoverage.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3484DC431B8460D400BB776F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3484DC2E1B8460D400BB776F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3484DC351B8460D400BB776F;
+			remoteInfo = ForCoverage;
+		};
+		3486F5361B860843004F98F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3484DC2E1B8460D400BB776F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3484DC351B8460D400BB776F;
+			remoteInfo = ForCoverage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3484DC341B8460D400BB776F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				3484DC3A1B8460D400BB776F /* ForCoverage.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3484DC361B8460D400BB776F /* libForCoverage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libForCoverage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3484DC391B8460D400BB776F /* ForCoverage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForCoverage.h; sourceTree = "<group>"; };
+		3484DC3B1B8460D400BB776F /* ForCoverage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForCoverage.m; sourceTree = "<group>"; };
+		3484DC411B8460D400BB776F /* ForCoverageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForCoverageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3484DC471B8460D400BB776F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3484DC501B8461C900BB776F /* ForCoverageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForCoverageTests.m; sourceTree = "<group>"; };
+		3484DC571B846AFF00BB776F /* SuBTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuBTests.m; sourceTree = "<group>"; };
+		3484DC591B846C1000BB776F /* SuB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuB.h; sourceTree = "<group>"; };
+		3484DC5A1B846C1000BB776F /* SuB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuB.m; sourceTree = "<group>"; };
+		3486F52F1B860843004F98F6 /* ForCoverage_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForCoverage_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3486F5321B860843004F98F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3486F5331B860843004F98F6 /* ForCoverage_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForCoverage_Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3484DC331B8460D400BB776F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3484DC3E1B8460D400BB776F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3484DC421B8460D400BB776F /* libForCoverage.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3486F52C1B860843004F98F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3486F5351B860843004F98F6 /* libForCoverage.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3484DC2D1B8460D400BB776F = {
+			isa = PBXGroup;
+			children = (
+				3484DC381B8460D400BB776F /* ForCoverage */,
+				3484DC451B8460D400BB776F /* ForCoverageTests */,
+				3486F5301B860843004F98F6 /* ForCoverage_Tests */,
+				3484DC371B8460D400BB776F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3484DC371B8460D400BB776F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3484DC361B8460D400BB776F /* libForCoverage.a */,
+				3484DC411B8460D400BB776F /* ForCoverageTests.xctest */,
+				3486F52F1B860843004F98F6 /* ForCoverage_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3484DC381B8460D400BB776F /* ForCoverage */ = {
+			isa = PBXGroup;
+			children = (
+				3484DC391B8460D400BB776F /* ForCoverage.h */,
+				3484DC591B846C1000BB776F /* SuB.h */,
+				3484DC5A1B846C1000BB776F /* SuB.m */,
+				3484DC3B1B8460D400BB776F /* ForCoverage.m */,
+			);
+			path = ForCoverage;
+			sourceTree = "<group>";
+		};
+		3484DC451B8460D400BB776F /* ForCoverageTests */ = {
+			isa = PBXGroup;
+			children = (
+				3484DC571B846AFF00BB776F /* SuBTests.m */,
+				3484DC461B8460D400BB776F /* Supporting Files */,
+				3484DC501B8461C900BB776F /* ForCoverageTests.m */,
+			);
+			path = ForCoverageTests;
+			sourceTree = "<group>";
+		};
+		3484DC461B8460D400BB776F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3484DC471B8460D400BB776F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3486F5301B860843004F98F6 /* ForCoverage_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3486F5331B860843004F98F6 /* ForCoverage_Tests.m */,
+				3486F5311B860843004F98F6 /* Supporting Files */,
+			);
+			path = ForCoverage_Tests;
+			sourceTree = "<group>";
+		};
+		3486F5311B860843004F98F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3486F5321B860843004F98F6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3484DC351B8460D400BB776F /* ForCoverage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3484DC4A1B8460D400BB776F /* Build configuration list for PBXNativeTarget "ForCoverage" */;
+			buildPhases = (
+				3484DC321B8460D400BB776F /* Sources */,
+				3484DC331B8460D400BB776F /* Frameworks */,
+				3484DC341B8460D400BB776F /* CopyFiles */,
+				3484DC521B84631000BB776F /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForCoverage;
+			productName = ForCoverage;
+			productReference = 3484DC361B8460D400BB776F /* libForCoverage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3484DC401B8460D400BB776F /* ForCoverageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3484DC4D1B8460D400BB776F /* Build configuration list for PBXNativeTarget "ForCoverageTests" */;
+			buildPhases = (
+				3484DC3D1B8460D400BB776F /* Sources */,
+				3484DC3E1B8460D400BB776F /* Frameworks */,
+				3484DC3F1B8460D400BB776F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3484DC441B8460D400BB776F /* PBXTargetDependency */,
+			);
+			name = ForCoverageTests;
+			productName = ForCoverageTests;
+			productReference = 3484DC411B8460D400BB776F /* ForCoverageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3486F52E1B860843004F98F6 /* ForCoverage_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3486F53A1B860843004F98F6 /* Build configuration list for PBXNativeTarget "ForCoverage_Tests" */;
+			buildPhases = (
+				3486F52B1B860843004F98F6 /* Sources */,
+				3486F52C1B860843004F98F6 /* Frameworks */,
+				3486F52D1B860843004F98F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3486F5371B860843004F98F6 /* PBXTargetDependency */,
+			);
+			name = ForCoverage_Tests;
+			productName = ForCoverage_Tests;
+			productReference = 3486F52F1B860843004F98F6 /* ForCoverage_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3484DC2E1B8460D400BB776F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = caoyuan;
+				TargetAttributes = {
+					3484DC351B8460D400BB776F = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					3484DC401B8460D400BB776F = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					3486F52E1B860843004F98F6 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3484DC311B8460D400BB776F /* Build configuration list for PBXProject "ForCoverage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3484DC2D1B8460D400BB776F;
+			productRefGroup = 3484DC371B8460D400BB776F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3484DC351B8460D400BB776F /* ForCoverage */,
+				3484DC401B8460D400BB776F /* ForCoverageTests */,
+				3486F52E1B860843004F98F6 /* ForCoverage_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3484DC3F1B8460D400BB776F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3486F52D1B860843004F98F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3484DC521B84631000BB776F /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "XcodeCoverage/exportenv.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3484DC321B8460D400BB776F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3484DC5B1B846C1000BB776F /* SuB.m in Sources */,
+				3484DC3C1B8460D400BB776F /* ForCoverage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3484DC3D1B8460D400BB776F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3484DC581B846AFF00BB776F /* SuBTests.m in Sources */,
+				3484DC511B8461C900BB776F /* ForCoverageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3486F52B1B860843004F98F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3486F5341B860843004F98F6 /* ForCoverage_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3484DC441B8460D400BB776F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3484DC351B8460D400BB776F /* ForCoverage */;
+			targetProxy = 3484DC431B8460D400BB776F /* PBXContainerItemProxy */;
+		};
+		3486F5371B860843004F98F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3484DC351B8460D400BB776F /* ForCoverage */;
+			targetProxy = 3486F5361B860843004F98F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3484DC481B8460D400BB776F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3484DC491B8460D400BB776F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3484DC4B1B8460D400BB776F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3484DC4C1B8460D400BB776F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3484DC4E1B8460D400BB776F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ForCoverageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3484DC4F1B8460D400BB776F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ForCoverageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3486F5381B860843004F98F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ForCoverage_Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3486F5391B860843004F98F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ForCoverage_Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3484DC311B8460D400BB776F /* Build configuration list for PBXProject "ForCoverage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3484DC481B8460D400BB776F /* Debug */,
+				3484DC491B8460D400BB776F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3484DC4A1B8460D400BB776F /* Build configuration list for PBXNativeTarget "ForCoverage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3484DC4B1B8460D400BB776F /* Debug */,
+				3484DC4C1B8460D400BB776F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3484DC4D1B8460D400BB776F /* Build configuration list for PBXNativeTarget "ForCoverageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3484DC4E1B8460D400BB776F /* Debug */,
+				3484DC4F1B8460D400BB776F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3486F53A1B860843004F98F6 /* Build configuration list for PBXNativeTarget "ForCoverage_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3486F5381B860843004F98F6 /* Debug */,
+				3486F5391B860843004F98F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3484DC2E1B8460D400BB776F /* Project object */;
+}
