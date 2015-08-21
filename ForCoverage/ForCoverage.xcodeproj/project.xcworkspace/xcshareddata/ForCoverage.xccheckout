@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7B01BA6F-5210-401F-97F5-251721792C0B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ForCoverage</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C0E8BB59D4E8299F4C03CAF3DA3BA99C3568418F</key>
+		<string>https://github.com/zhangfei5056/ForCoverage.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ForCoverage/ForCoverage.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C0E8BB59D4E8299F4C03CAF3DA3BA99C3568418F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zhangfei5056/ForCoverage.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C0E8BB59D4E8299F4C03CAF3DA3BA99C3568418F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C0E8BB59D4E8299F4C03CAF3DA3BA99C3568418F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ForCoverage</string>
+		</dict>
+	</array>
+</dict>
+</plist>
