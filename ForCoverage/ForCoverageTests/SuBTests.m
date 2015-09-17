@@ -21,6 +21,10 @@
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
     a = 1,b = 2;c = -1;
+        a = 1,b = 2;c = -1;
+        a = 1,b = 2;c = -1;
+        a = 1,b = 2;c = -1;
+        a = 1,b = 2;c = -1;
 }
 
 - (void)tearDown {
