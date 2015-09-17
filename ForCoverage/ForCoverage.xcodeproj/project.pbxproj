@@ -112,9 +112,9 @@
 		3484DC381B8460D400BB776F /* ForCoverage */ = {
 			isa = PBXGroup;
 			children = (
-				3484DC391B8460D400BB776F /* ForCoverage.h */,
 				3484DC591B846C1000BB776F /* SuB.h */,
 				3484DC5A1B846C1000BB776F /* SuB.m */,
+				3484DC391B8460D400BB776F /* ForCoverage.h */,
 				3484DC3B1B8460D400BB776F /* ForCoverage.m */,
 			);
 			path = ForCoverage;

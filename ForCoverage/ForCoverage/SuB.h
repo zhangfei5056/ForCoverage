@@ -17,6 +17,7 @@
 
 + (int)sum3:(int)a
         sec:(int)b;
+
 + (int)sum4:(int)a
         sec:(int)b;
 
